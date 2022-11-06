@@ -37,6 +37,8 @@ public class firsttext extends base {
 		fd.password().sendKeys(password);
 
 		fd.login().click();
+		
+		System.out.println("grasping power is low");
 
 		driver.quit();
 
